@@ -1,0 +1,32 @@
+.cards{
+    border:solid;
+    height: 20rem;
+    width: 15rem; 
+    border-radius: 1rem;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+img{
+    height: 15rem;
+    width: 15rem;
+    padding: 1rem;
+}
+
+.close{
+    float:right;
+    margin: 0.5rem;  
+}
+
+button{
+    padding: 0.5rem; 
+    display: flex;
+   
+}  
+
+   
+   

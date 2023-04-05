@@ -1,0 +1,12 @@
+.page{
+    background-color: bisque;
+    
+}
+
+.collection{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+    
+}
+
