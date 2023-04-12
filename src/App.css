@@ -31,3 +31,17 @@
     transform: rotate(360deg);
   }
 }
+
+nav, ul, li {
+  display: flex;
+  margin: 1rem;
+  align-items: center;
+  justify-content: center;
+  font-size: larger;
+  text-decoration: none;
+}
+
+nav {
+  text-decoration: none;
+  color: aliceblue;
+}

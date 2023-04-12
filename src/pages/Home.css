@@ -1,0 +1,29 @@
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.box1 {
+    background:url("https://media.wired.com/photos/593261cab8eb31692072f129/master/w_2560%2Cc_limit/85120553.jpg") no-repeat center center/cover ;
+    padding: 1rem;
+}
+.box2 {
+    background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD8iBVFIVMMkWlL3W9xJ8S-duKPnTbweG5Nw&usqp=CAU") no-repeat center center/cover;
+    padding: 1rem;
+}
+
+
+
+.box {
+    height: 25rem;
+    width: 25rem;
+    border: none;
+    background-color: aqua;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+  
+}

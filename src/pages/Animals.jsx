@@ -1,7 +1,7 @@
 import React from "react";
 import "./Animals.css";
-import Card from './Card';
-import Search from './search'
+import Card from '../UI/Card';
+import Search from '../UI/search';
 
 const Animals = (props) => {
 const searchFilter = props.data.filter(animal =>{
@@ -12,10 +12,11 @@ const searchFilter = props.data.filter(animal =>{
         <div>
             
             <div className="page">
-                <header><h1>Living Beings</h1></header>
-                <h2>Animals {props.data.length}</h2>
-                <Search searchHandler ={props.searchHandler}/>
+                <h1>Living Beings</h1>
+                <h2>Animals {searchFilter.length }</h2>
+                <Search searchHandler ={props.searchHandler}/>   
             </div>
+            
             <div className="collection">
                 {searchFilter
                 .map((item) => <Card 
