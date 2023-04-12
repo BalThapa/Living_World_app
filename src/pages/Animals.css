@@ -6,7 +6,7 @@
 .page{
     display: flex;
     flex-direction: column;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     justify-content: space-around;
     align-items: center;
     position: static;

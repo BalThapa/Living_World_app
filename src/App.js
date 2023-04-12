@@ -1,11 +1,12 @@
 import React, { Component } from "react";
+import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
+
 import "./App.css";
 import { animals, birds } from "./animalsList";
 import Animals from "./pages/Animals";
 import Birds from "./pages/Birds";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
 
 class App extends Component {
   state = {
@@ -81,7 +82,7 @@ class App extends Component {
                   <NavLink to="/">Home</NavLink>
                 </li>
                 <li>
-                  <NavLink to="Animals">
+                  <NavLink to="/Animals">
                     Animals({this.state.animals.length})
                   </NavLink>
                 </li>

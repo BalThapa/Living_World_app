@@ -1,29 +1,26 @@
 .home {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   margin: 0 auto;
     
 }
 
 .box1 {
     background:url("https://media.wired.com/photos/593261cab8eb31692072f129/master/w_2560%2Cc_limit/85120553.jpg") no-repeat center center/cover ;
-    padding: 1rem;
+  
 }
 .box2 {
-    background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD8iBVFIVMMkWlL3W9xJ8S-duKPnTbweG5Nw&usqp=CAU") no-repeat center center/cover;
-    padding: 1rem;
+    background:url("https://cdn.download.ams.birds.cornell.edu/api/v1/asset/128738361/1200") no-repeat center center/cover;
+
 }
 
-
-
 .box {
-    height: 25rem;
-    width: 25rem;
-    border: none;
-    background-color: aqua;
+    height: calc(100vh - 130px);
     margin: 2rem;
     display: flex;
     justify-content: center;
-    color: aliceblue;
+    font-size: x-large;
+    font-weight: bold;
+    color:blue;
   
 }

@@ -41,7 +41,15 @@ nav, ul, li {
   text-decoration: none;
 }
 
-nav {
+a {
   text-decoration: none;
   color: aliceblue;
+  transition: width 2s;
+}
+
+a.hover {
+  width: 20px;
+}
+a.active{
+  color: rgb(0, 0, 0); 
 }

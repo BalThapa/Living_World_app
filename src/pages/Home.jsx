@@ -1,13 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import "./Home.css";
 
 const Home = (props) => {
   return(
     <div className='home'>
      
-      <div className='box box1'><h2>Animals</h2></div>
+      <Link to="/Animals"><div className='box box1'><h2>Animals</h2></div></Link>
       
-      <div className='box box2'><h2>Birds</h2></div>
+      <Link to="/Birds"><div className='box box2'><h2>Birds</h2></div></Link>
     </div>
   )
 }
