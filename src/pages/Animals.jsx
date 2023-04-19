@@ -1,6 +1,6 @@
 import React from "react";
-import "./Animals.css";
-import Card from '../UI/Card';
+import "../index.css";
+import Card from '../UI/Cards/Card';
 import Search from '../UI/search';
 
 const Animals = (props) => {
@@ -26,6 +26,7 @@ const searchFilter = props.data.filter(animal =>{
                 removeCard={()=>props.removeHandler(item.name)}
                 removeLikes={()=>props.likesHandler(item.name,'remove')}
                 addLikes={()=>props.likesHandler(item.name,'add')}/>)}
+            
             </div>
         </div>    
        

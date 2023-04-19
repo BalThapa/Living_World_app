@@ -13,13 +13,8 @@ const Card = (props) => {
             <div className="likeContainer">
                 <button onClick={props.addLikes} className="btn"> ❤️ </button>
                 {props.likes >= 0 ? <p className="likes"> 😊 {props.likes} </p>:<p className="likes"> 😩 {props.likes}</p>}
-                <button onClick={props.removeLikes} className="btn"> 💔</button>
-            </div>   
-                
-               
-                
-               
-                
+                <button onClick={props.removeLikes} className="btn">💔</button>
+            </div>         
            
         </div>
        

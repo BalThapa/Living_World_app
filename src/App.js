@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
 
-import "./App.css";
+import "./index.css";
 import { animals, birds } from "./animalsList";
 import Animals from "./pages/Animals";
 import Birds from "./pages/Birds";
