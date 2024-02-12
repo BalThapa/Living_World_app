@@ -13,7 +13,15 @@ class App extends Component {
     animals: animals,
     birds: birds,
     searchInput: "",
+    data: [],
   };
+
+  componentDidMount() {
+    fetch("https://pokeapi.co/api/v2/pokemon?limit=10&offset=0")
+      .then((res) => res.json())
+      .then((res) => this.setState({ data: res.results }));
+  }
+
   removeHandler = (name) => {
     const updatedArray = this.state.animals.filter(
       (animal) => animal.name !== name
@@ -112,7 +120,7 @@ class App extends Component {
               }
             />
             <Route
-              path="Birds"
+              path="/Birds"
               element={
                 <Birds
                   data={this.state.birds}
